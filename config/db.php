@@ -1,7 +1,7 @@
 <?php
 
 	// Create Connection
-	$conn = mysqli_connect("localhost", "root","","taskdb");
+	$conn = mysqli_connect("localhost", "root","root","taskdb");
 
 	// Check Connection
 	if(mysqli_connect_errno()){
